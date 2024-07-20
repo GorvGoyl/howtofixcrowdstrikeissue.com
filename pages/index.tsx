@@ -124,6 +124,10 @@ function TroubleshootingGuide() {
                     <strong>Safe Mode and Windows Recovery Environment:</strong> These special modes load only essential
                     system files and drivers, making it easier to fix problems.
                 </li>
+                <li className="mb-2">
+                    <strong>Fix using a USB Bootdevice:</strong>{' '}
+                    <a href="https://github.com/Broadcast932/CrowdstrikeUsbFix">Guide</a>
+                </li>
             </ul>
         </div>
     );
