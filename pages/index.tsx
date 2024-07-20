@@ -3,7 +3,12 @@ function Home() {
         <>
             {/* ---------- Body --------- */}
             <main className="prose prose-slate mx-auto mt-20 flex w-full max-w-screen-xl flex-col items-center bg-slate-50 p-4 md:p-8">
-                <h1 id="is-crowdstrike-issue-fixed mb-30">How to Fix CrowdStrike Issue?</h1>
+                <h1
+                    className="mb-14 text-center"
+                    id="is-crowdstrike-issue-fixed">
+                    How to Fix CrowdStrike Issue?
+                </h1>
+
                 <TroubleshootingGuide />
                 <Footer />
             </main>
@@ -17,6 +22,18 @@ function TroubleshootingGuide() {
     return (
         <div className="rounded-lg border border-slate-200 bg-white p-6">
             <h1 className="mb-4 text-2xl font-bold">Workaround Steps for Individual Computers</h1>
+
+            <div>
+                <p className="text-sm text-slate-600">
+                    Reference:{' '}
+                    <a
+                        target="_blank"
+                        className="text-slate-600"
+                        href="https://www.crowdstrike.com/blog/statement-on-falcon-content-update-for-windows-hosts/">
+                        CrowdStrike's Website
+                    </a>
+                </p>
+            </div>
 
             <h2 className="mb-2 text-xl font-semibold">Step 1: Reboot the Computer</h2>
             <ol className="mb-4 ml-5 list-decimal">
@@ -107,36 +124,11 @@ function TroubleshootingGuide() {
                     <strong>Safe Mode and Windows Recovery Environment:</strong> These special modes load only essential
                     system files and drivers, making it easier to fix problems.
                 </li>
-                <li className="mb-2">
-                    <strong>File Deletion:</strong> Only delete the specified file <code>C-00000291*.sys</code>.
-                    Deleting other files may cause further issues.
-                </li>
             </ul>
-            <Notes />
         </div>
     );
 }
 
-function Notes() {
-    return (
-        <>
-            <div>
-                Note: If your computer is protected by BitLocker, you may need to enter the recovery key during startup.
-            </div>
-            <div>
-                <p className="text-sm">
-                    Reference:{' '}
-                    <a
-                        target="_blank"
-                        className=""
-                        href="https://www.crowdstrike.com/blog/statement-on-falcon-content-update-for-windows-hosts/">
-                        Official Resource
-                    </a>
-                </p>
-            </div>
-        </>
-    );
-}
 function Footer() {
     return (
         <footer className="mx-auto mt-5 max-w-screen-md text-center text-xs">
