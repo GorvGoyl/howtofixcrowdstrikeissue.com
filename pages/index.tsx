@@ -135,7 +135,7 @@ function Footer() {
             <a
                 target="_blank"
                 title="See source-code on Github"
-                href="https://github.com/GorvGoyl/howtofixcrowdstrikeissue.com">
+                href="https://github.com/GorvGoyl/howtofixcrowdstrikeissue.com/issues">
                 Feedback
             </a>
         </footer>
