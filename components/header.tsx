@@ -11,7 +11,8 @@ export let domain = '';
 export const pageInfo = {
     home: {
         title: 'How to Fix CrowdStrike Issue?',
-        description: 'How to Fix CrowdStrike Issue?',
+        description:
+            'Fix CrowdStrike issue with this quick guide. Reboot your computer, enter Safe Mode, and delete problematic file safely.',
     },
 };
 
