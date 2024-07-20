@@ -17,6 +17,7 @@ module.exports = {
                     css: {
                         'code::before': { content: 'none' },
                         'code::after': { content: 'none' },
+                        code: { overflowWrap: 'anywhere' },
                     },
                 },
             },
