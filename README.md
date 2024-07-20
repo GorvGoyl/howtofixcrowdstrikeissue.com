@@ -5,3 +5,7 @@ https://howtofixcrowdstrikeissue.com
 ## How to improve the content?
 
 Please edit `./pages/index.tsx` file and submit a PR.
+
+---
+
+Built using Next.js and Tailwind CSS.
