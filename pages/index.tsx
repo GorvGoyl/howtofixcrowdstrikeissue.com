@@ -111,7 +111,12 @@ function TroubleshootingGuide() {
             <h2 className="mb-2 text-xl font-semibold">Note for Bitlocker-Encrypted Computers</h2>
             <p className="mb-4">
                 <strong>Recovery Key:</strong> If your computer is encrypted with Bitlocker, you may need to enter your
-                recovery key during this process. Make sure you have it handy.
+                recovery key during this process. Make sure you have it handy.{' '}
+                <a
+                    target="_blank"
+                    href="https://old.reddit.com/r/sysadmin/comments/1e6vx6n/crowdstrike_bsod/ldwpu7h/">
+                    More info
+                </a>
             </p>
 
             <h2 className="mb-2 text-xl font-semibold">Additional Information</h2>
@@ -126,7 +131,11 @@ function TroubleshootingGuide() {
                 </li>
                 <li className="mb-2">
                     <strong>Fix using a USB Bootdevice:</strong>{' '}
-                    <a href="https://github.com/Broadcast932/CrowdstrikeUsbFix">Guide</a>
+                    <a
+                        target="_blank"
+                        href="https://github.com/Broadcast932/CrowdstrikeUsbFix">
+                        Guide
+                    </a>
                 </li>
             </ul>
         </div>
