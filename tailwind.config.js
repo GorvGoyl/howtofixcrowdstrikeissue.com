@@ -12,6 +12,14 @@ module.exports = {
     ],
     theme: {
         extend: {
+            typography: {
+                DEFAULT: {
+                    css: {
+                        'code::before': { content: 'none' },
+                        'code::after': { content: 'none' },
+                    },
+                },
+            },
             fontSize: {
                 md: ['15px', '22px'],
             },
