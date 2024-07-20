@@ -1,10 +1,12 @@
 import { Footer } from '../components/footer';
+import { HeroImg } from '../components/hero';
 
 function Home() {
     return (
-        <main className="prose prose-slate mx-auto mt-20 flex w-full max-w-screen-xl flex-col items-center bg-slate-50 p-4 md:p-8">
+        <main className="prose prose-slate mx-auto mt-16 flex w-full max-w-screen-xl flex-col items-center bg-slate-50 p-4 md:p-8">
+            <HeroImg />
             <h1
-                className="mb-14 text-center"
+                className="my-14 text-center"
                 id="is-crowdstrike-issue-fixed">
                 How to Fix CrowdStrike Issue?
             </h1>
