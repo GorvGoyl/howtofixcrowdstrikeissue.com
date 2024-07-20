@@ -1,22 +1,18 @@
+import { Footer } from '../components/footer';
+
 function Home() {
     return (
-        <>
-            {/* ---------- Body --------- */}
-            <main className="prose prose-slate mx-auto mt-20 flex w-full max-w-screen-xl flex-col items-center bg-slate-50 p-4 md:p-8">
-                <h1
-                    className="mb-14 text-center"
-                    id="is-crowdstrike-issue-fixed">
-                    How to Fix CrowdStrike Issue?
-                </h1>
-
-                <TroubleshootingGuide />
-                <Footer />
-            </main>
-        </>
+        <main className="prose prose-slate mx-auto mt-20 flex w-full max-w-screen-xl flex-col items-center bg-slate-50 p-4 md:p-8">
+            <h1
+                className="mb-14 text-center"
+                id="is-crowdstrike-issue-fixed">
+                How to Fix CrowdStrike Issue?
+            </h1>
+            <TroubleshootingGuide />
+            <Footer />
+        </main>
     );
 }
-
-export default Home;
 
 function TroubleshootingGuide() {
     return (
@@ -131,25 +127,4 @@ function TroubleshootingGuide() {
     );
 }
 
-function Footer() {
-    return (
-        <footer className="mx-auto mt-5 max-w-screen-md text-center text-xs text-slate-500">
-            <a
-                className="text-slate-500"
-                target="_blank"
-                title="Give feedback on Github"
-                href="https://github.com/GorvGoyl/howtofixcrowdstrikeissue.com/issues">
-                Feedback
-            </a>
-            &nbsp;
-            {'  '}|{'  '} &nbsp;
-            <a
-                target="_blank"
-                className="text-slate-500"
-                title="See source-code on Github"
-                href="https://github.com/GorvGoyl/howtofixcrowdstrikeissue.com?tab=readme-ov-file#how-to-improve-the-content">
-                Edit
-            </a>
-        </footer>
-    );
-}
+export default Home;
