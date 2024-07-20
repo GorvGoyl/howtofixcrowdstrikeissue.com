@@ -54,10 +54,12 @@ function TroubleshootingGuide() {
             <h2 className="mb-2 text-xl font-semibold">Step 2: Boot into Safe Mode or Windows Recovery Environment</h2>
             <ol className="mb-4 ml-5 list-decimal">
                 <li className="mb-2">
-                    <strong>Enter Safe Mode:</strong> Press and hold the Shift key, then click Restart from the Start
-                    menu. Your computer will restart and display a menu. Select Troubleshoot &gt; Advanced options &gt;
-                    Startup Settings &gt; Restart. After restarting, select option 4 (Safe Mode) or option 5 (Safe Mode
-                    with Networking) by pressing the corresponding number on your keyboard.
+                    <strong>Enter Safe Mode:</strong> Press and hold the <code>Shift</code> key, then click Restart from
+                    the Start menu. Your computer will restart and display a menu. If this doesn't work, alternatively,
+                    hold down the <code>F8</code> key before the Windows logo appears on the screen. <br /> Select
+                    Troubleshoot &gt; Advanced options &gt; Startup Settings &gt; Restart. After restarting, select
+                    option 4 (Safe Mode) or option 5 (Safe Mode with Networking) by pressing the corresponding number on
+                    your keyboard.
                 </li>
                 <li className="mb-2">
                     <strong>Use Safe Mode with Networking:</strong> This option helps by allowing internet access to
